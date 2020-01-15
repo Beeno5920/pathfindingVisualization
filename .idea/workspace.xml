@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b3b46c6-fa97-49dd-b884-0d74d84f8821" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WBjsY4lKP9RiYot5jqDqM8kgRP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Demo" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mainApp">
+    <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pathfindingVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bfs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pathfindingVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dijkstra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gridPane" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pathfindingVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gridPane.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pathfindingVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mainApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mainApp" />
+        <item itemvalue="Python.dijkstra" />
+        <item itemvalue="Python.bfs" />
+        <item itemvalue="Python.gridPane" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b3b46c6-fa97-49dd-b884-0d74d84f8821" name="Default Changelist" comment="" />
+      <created>1578630088507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578630088507</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578655089090">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="580" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.952@0.23.1680.952" timestamp="1578655089090" />
+    <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579078155011">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.952@0.23.1680.952" timestamp="1579078155011" />
+    <state x="627" y="261" key="FileChooserDialogImpl" timestamp="1578633830771">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="627" y="261" key="FileChooserDialogImpl/0.23.1680.952@0.23.1680.952" timestamp="1578633830771" />
+    <state width="1379" height="242" key="GridCell.Tab.0.bottom" timestamp="1579082757062">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1379" height="242" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1579082757062" />
+    <state width="1379" height="242" key="GridCell.Tab.0.center" timestamp="1579082757062">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1379" height="242" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1579082757062" />
+    <state width="1379" height="242" key="GridCell.Tab.0.left" timestamp="1579082757061">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1379" height="242" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1579082757061" />
+    <state width="1379" height="242" key="GridCell.Tab.0.right" timestamp="1579082757062">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1379" height="242" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1579082757062" />
+    <state x="349" y="138" key="SettingsEditor" timestamp="1578634051181">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="349" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1578634051181" />
+    <state x="519" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1579084094996">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1579084094996" />
+    <state x="602" y="137" key="refactoring.ChangeSignatureDialog" timestamp="1578968476982">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="602" y="137" key="refactoring.ChangeSignatureDialog/0.23.1680.952@0.23.1680.952" timestamp="1578968476982" />
+    <state x="505" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1578811853861">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="505" y="242" width="670" height="676" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1578811853861" />
+  </component>
+</project>
