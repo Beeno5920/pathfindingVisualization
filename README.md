@@ -13,23 +13,23 @@ Note that while visualizing the process, user cannot make any changes to the map
 
 ## Demo
 ### A* algorithm:
-![AStar](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/AStar.gif)
+![AStar](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/AStar.gif)  
 Shortest path guaranteed
 
 ### Dijkstra's algorithm:
-![Dijkstra](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/dijkstra.gif)
+![Dijkstra](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/dijkstra.gif)  
 Shortest path guaranteed
 
 ### Breadth-first search algoritm:
-![bfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/bfs.gif)
-Shortest obtained in this case since the weight between each accessible node is defaulted to be 1
+![bfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/bfs.gif)  
+Shortest path obtained in this case since the weight between each accessible node is defaulted to be 1
 
 ### Depth-first search algorithm:
-![dfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/dfs.gif)
-The path obtained by this algorithm may not be the shortest path
+![dfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/dfs.gif)  
+Paths obtained by this algorithm may not be the shortest path
 
 ### No path:
-![no path](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/noPath.gif)
+![no path](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/noPath.gif)  
 
 <= To be continued ...
  
