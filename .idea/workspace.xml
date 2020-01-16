@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b3b46c6-fa97-49dd-b884-0d74d84f8821" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/AStar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/AStar.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/dijkstra.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/dijkstra.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/noPath.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/noPath.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,10 +194,10 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="349" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1578634051181" />
-    <state x="519" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579086765992">
+    <state x="519" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579146039425">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state x="519" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1579086765992" />
+    <state x="519" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1579146039425" />
     <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1579084094996" />
     <state x="602" y="137" key="refactoring.ChangeSignatureDialog" timestamp="1578968476982">
       <screen x="0" y="23" width="1680" height="952" />

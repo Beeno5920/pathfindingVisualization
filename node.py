@@ -25,6 +25,6 @@ class Node:
 
         screen.create_rectangle(x0, y0, x1, y1, fill=color, outline="grey")
 
-    def heurisitic(self, other):
+    def heuristic(self, other):
         return math.sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
 

@@ -31,11 +31,11 @@ def AStar(screen, start, goal):
 
         for neighbor in neighbors:
             cost = currNode.g + neighbor.weight
-            heurisitic = neighbor.heurisitic(goal)
-            if cost + heurisitic < neighbor.f:
+            heuristic = neighbor.heurisitic(goal)
+            if cost + heuristic < neighbor.f:
                 neighbor.g = cost
-                neighbor.h = heurisitic
-                neighbor.f = cost + heurisitic
+                neighbor.h = heuristic
+                neighbor.f = cost + heuristic
                 neighbor.previous = currNode
                 toExplore.add(neighbor)
 
