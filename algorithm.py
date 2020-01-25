@@ -31,7 +31,7 @@ def AStar(screen, start, goal):
 
         for neighbor in neighbors:
             cost = currNode.g + neighbor.weight
-            heuristic = neighbor.heurisitic(goal)
+            heuristic = neighbor.heuristic(goal)
             if cost + heuristic < neighbor.f:
                 neighbor.g = cost
                 neighbor.h = heuristic
@@ -165,13 +165,15 @@ def showPath(screen, goal):
     path = []
     currNode = goal
 
-    while currNode.previous != None:
+    while currNode != None:
         path.append(currNode)
         currNode = currNode.previous
 
     path.reverse()
     for i in range(len(path)):
         path[i].show(screen, "yellow", screen.nodeSize)
+        if i == 0:
+            screen.showStart()
         if i == len(path) - 1:
             screen.showGoal()
         screen.update()

@@ -69,7 +69,7 @@ dfsButton.pack(fill=BOTH, expand=True)
 blank2.pack()
 
 visualize.pack(fill=BOTH, expand=True)
-clear.pack(fill=BOTH, expand=True)
+clear.pack(side=RIGHT, fill=BOTH, expand=True)
 reset.pack(fill=BOTH, expand=True)
 
 root.mainloop()

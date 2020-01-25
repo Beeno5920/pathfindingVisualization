@@ -67,7 +67,7 @@ class GridPane(Canvas):
             y = self.startPos[1] * self.nodeSize + radius
             self.create_oval(x - radius, y - radius, x + radius, y + radius, fill="grey")
             (self.grids[self.startPos[1]][self.startPos[0]]).type = 1
-            (self.grids[self.startPos[1]][self.startPos[0]]).accessible = True
+            #(self.grids[self.startPos[1]][self.startPos[0]]).accessible = True
 
     def showGoal(self):
         if self.isInsideByGrid(self.goalPos[0], self.goalPos[1]):
@@ -76,7 +76,7 @@ class GridPane(Canvas):
             y = self.goalPos[1] * self.nodeSize + radius
             self.create_oval(x - radius, y - radius, x + radius, y + radius, fill="blue")
             (self.grids[self.goalPos[1]][self.goalPos[0]]).type = 2
-            (self.grids[self.goalPos[1]][self.goalPos[0]]).accessible = True
+            #(self.grids[self.goalPos[1]][self.goalPos[0]]).accessible = True
 
     def clear(self):
         if self.executing:
@@ -192,34 +192,46 @@ class GridPane(Canvas):
                     oldPos = self.startPos
                     self.startPos = (x, y)
                     node.show(self, "white", self.nodeSize)
-                    node.accessible = True
+                    #node.accessible = True
                     self.showStart()
                     self.draggingNode = node
 
                     if self.startPos != oldPos:
                         temp = self.getNode(oldPos[0], oldPos[1])
-                        temp.show(self, "white", self.nodeSize)
-                        temp.accessible = True
-                        temp.type = 0
+                        color = "white"
+                        type = 0
+                        if temp.accessible == False:
+                            color = "black"
+                            type = -1
+                        temp.show(self, color, self.nodeSize)
+                        #temp.accessible = True
+                        temp.type = type
                 elif self.draggingNode.type == 2 and self.startPos != (x, y):
                     oldPos = self.goalPos
                     self.goalPos = (x, y)
                     node.show(self, "white", self.nodeSize)
-                    node.accessible = True
+                    #node.accessible = True
                     self.showGoal()
                     self.draggingNode = node
 
                     if self.goalPos != oldPos:
                         temp = self.getNode(oldPos[0], oldPos[1])
-                        temp.show(self, "white", self.nodeSize)
-                        temp.accessible = True
-                        temp.type = 0
+                        color = "white"
+                        type = 0
+                        if temp.accessible == False:
+                            color = "black"
+                            type = -1
+                        temp.show(self, color, self.nodeSize)
+                        #temp.accessible = True
+                        temp.type = type
             elif node.type == 0:
                 node.accessible = False
                 node.type = -1
                 node.show(self, "black", self.nodeSize)
 
     def onMouseRelease(self, event):
+        if self.dragging and (self.draggingNode.type == 1 or self.draggingNode.type == 2):
+            self.draggingNode.accessible = True
         self.dragging = False
 
     def onMouseRightClicked(self, event):
