@@ -1,4 +1,4 @@
-from priorityQueue import PriorityQueue
+from queue import PriorityQueue
 from tkinter import *
 from node import Node
 
@@ -13,12 +13,11 @@ def AStar(screen, start, goal):
     colorVal = "#%02x%02x%02x" % (102, 255, 153)
 
     visited.append(start)
-    toExplore.add(start)
-    start.f = 0.0
+    toExplore.put(start)
+    start.h = start.f = start.heuristic(goal)
 
-    while not toExplore.isEmpty() and not found:
-        currNode = toExplore.dequeue()
-        visited.append(currNode)
+    while not toExplore.empty() and not found:
+        currNode = toExplore.get()
         currNode.show(screen, colorVal, screen.nodeSize)
         if currNode.type == 1:
             screen.showStart()
@@ -37,7 +36,8 @@ def AStar(screen, start, goal):
                 neighbor.h = heuristic
                 neighbor.f = cost + heuristic
                 neighbor.previous = currNode
-                toExplore.add(neighbor)
+                visited.append(neighbor)
+                toExplore.put(neighbor)
 
         screen.update()
 
@@ -55,12 +55,11 @@ def dijkstra(screen, start, goal):
     colorVal = "#%02x%02x%02x" % (102, 255, 153)
 
     visited.append(start)
-    toExplore.add(start)
+    toExplore.put(start)
     start.g = start.f = 0.0
 
-    while not toExplore.isEmpty() and not found:
-        currNode = toExplore.dequeue()
-        visited.append(currNode)
+    while not toExplore.empty() and not found:
+        currNode = toExplore.get()
         currNode.show(screen, colorVal, screen.nodeSize)
         if currNode.type == 1:
             screen.showStart()
@@ -77,13 +76,52 @@ def dijkstra(screen, start, goal):
                     neighbor.g = currNode.f + neighbor.weight
                     neighbor.f = neighbor.g
                     neighbor.previous = currNode
-                    toExplore.add(neighbor)
+                    visited.append(neighbor)
+                    toExplore.put(neighbor)
         # time.sleep(0.1)
         screen.update()
 
     if not found:
         failToFind(visited, screen, screen.nodeSize)
 
+def greedy(screen, start, goal):
+    if start == None or goal == None:
+        return
+
+    visited = []
+    toExplore = PriorityQueue()
+    found = False
+    colorVal = "#%02x%02x%02x" % (102, 255, 153)
+
+    visited.append(start)
+    toExplore.put(start)
+    start.f = start.heuristic(goal)
+
+    while not toExplore.empty() and not found:
+        currNode = toExplore.get()
+        currNode.show(screen, colorVal, screen.nodeSize)
+        if currNode.type == 1:
+            screen.showStart()
+        if currNode.type == 2:
+            found = True
+            screen.showGoal()
+            showPath(screen, goal)
+            break
+        neighbors = screen.getNeighbors2(currNode)
+
+        for neighbor in neighbors:
+            if neighbor not in visited:
+                heuristic = neighbor.heuristic(goal)
+                neighbor.h = heuristic
+                neighbor.f = neighbor.h
+                neighbor.previous = currNode
+                visited.append(neighbor)
+                toExplore.put(neighbor)
+
+        screen.update()
+
+    if not found:
+        failToFind(visited, screen, screen.nodeSize)
 
 def bfs(screen, start, goal):
     if start == None or goal == None:

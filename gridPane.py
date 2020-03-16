@@ -152,8 +152,10 @@ class GridPane(Canvas):
             elif case == 1:
                 algorithm.dijkstra(self, start, goal)
             elif case == 2:
-                algorithm.bfs(self, start, goal)
+                algorithm.greedy(self, start, goal)
             elif case == 3:
+                algorithm.bfs(self, start, goal)
+            elif case == 4:
                 algorithm.dfs(self,start, goal)
 
 

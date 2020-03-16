@@ -20,6 +20,9 @@ Shortest path guaranteed
 ![Dijkstra](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/dijkstra.gif)  
 Shortest path guaranteed
 
+### Greedy algorithm:
+![Greedy](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/greedy.gif)
+
 ### Breadth-first search algoritm:
 ![bfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/bfs.gif)  
 Shortest path obtained in this case since the weight between each accessible node is defaulted to be 1
@@ -30,6 +33,4 @@ Paths obtained by this algorithm may not be the shortest path
 
 ### No path:
 ![no path](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/noPath.gif)  
-
-<= To be continued ...
  

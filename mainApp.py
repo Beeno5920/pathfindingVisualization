@@ -14,7 +14,7 @@ goalPos = (planeSize[0] // 4 * 3, planeSize[1] // 2)
 bgColor = "#%02x%02x%02x" % (230, 230, 230)
 
 root = Tk()
-root.title("Path-finding Algorithms Visualization")
+root.title("Path-finding Algorithms Visualizer")
 
 plane = GridPane(root, planeSize[0], planeSize[1], nodeSize, startPos=startPos, goalPos=goalPos)
 
@@ -41,10 +41,11 @@ blank1 = Label(setting)
 
 algo = IntVar()
 label = Label(setting, text="Choose an algorithm:", font=("Verdana Bold", 20), bg="#%02x%02x%02x" % (230, 230, 230))
-AStarButton = Radiobutton(setting, text="A*", font=("Verdana", 20), variable=algo, value=0)
+AStarButton = Radiobutton(setting, text="A*", font=("Verdana", 15), variable=algo, value=0)
 dijkstraButton = Radiobutton(setting, text="Dijkstra's", font=("Verdana", 15), variable=algo, value=1)
-bfsButton = Radiobutton(setting, text="Bread-first search", font=("Verdana", 15), variable=algo, value=2)
-dfsButton = Radiobutton(setting, text="Depth-first search", font=("Verdana", 15), variable=algo, value=3)
+greedyButton = Radiobutton(setting, text="Greedy", font=("Verdana", 15), variable=algo, value=2)
+bfsButton = Radiobutton(setting, text="Bread-first search", font=("Verdana", 15), variable=algo, value=3)
+dfsButton = Radiobutton(setting, text="Depth-first search", font=("Verdana", 15), variable=algo, value=4)
 
 blank2 = Label(setting)
 
@@ -63,6 +64,7 @@ blank1.pack()
 label.pack(fill=BOTH, expand=True)
 AStarButton.pack(fill=BOTH, expand=True)
 dijkstraButton.pack(fill=BOTH, expand=True)
+greedyButton.pack(fill=BOTH, expand=True)
 bfsButton.pack(fill=BOTH, expand=True)
 dfsButton.pack(fill=BOTH, expand=True)
 
