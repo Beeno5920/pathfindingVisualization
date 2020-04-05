@@ -1,13 +1,14 @@
 # Path-finding Visualization
-This is an app that allows user to creat obstacles on the map, then find the path from the starting point to the destination 
-and visualize the path-finding process.
+This is a python3 program with a GUI which you can interact with. You can modify the board, like creating obstacles and moving start and/or goal positioins, and choose a path-finding algorithm to see how that algorithm finds a path from start to goal and how the path looks like.  
 
 ## How to use?
-User can left-click or left-click and drag the white grid to create obstacle(s) as many as possible on the map. Positions of 
-the starting point and the destination can be changed by dragging these two nodes to any grid on the map.
+Modify the board:
+* Left-click a white grid or left-click and drag your mouse to create obstacles on the board.  
+* Left-click and drag the start/goal node to change the starting/ending position.
+* Click "Reset board" to reset the board to default status
+* Click "Clear board" to remove all the path and visited nodes but keep the start and goal node and the obstacles you created
 
-Once user has finished modifying the map, user can selecte an algorithm then press the "Visualize" button to see how the 
-selected path-finding algorithm finds out the path from start to goal.
+Once you have finished modifying the board, you can selecte an algorithm then press the "Visualize" button to see the visualization.
 
 Note that while visualizing the process, user cannot make any changes to the map and press any buttons.
 
@@ -21,7 +22,8 @@ Shortest path guaranteed
 Shortest path guaranteed
 
 ### Greedy algorithm:
-![Greedy](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/greedy.gif)
+![Greedy](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/greedy.gif)  
+-- Recently added --
 
 ### Breadth-first search algoritm:
 ![bfs](https://github.com/Beeno5920/pathfindingVisualization/blob/master/Demo/bfs.gif)  
